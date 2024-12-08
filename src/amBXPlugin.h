@@ -1,10 +1,8 @@
-#ifndef AMBXPLUGIN_H
-#define AMBXPLUGIN_H
+#pragma once
 
 #include <QWidget>
 #include <QTimer>
 #include "OpenRGBPluginInterface.h"
-#include "ResourceManager.h"
 
 class amBXPlugin : public QObject, public OpenRGBPluginInterface
 {
@@ -29,5 +27,3 @@ private:
     QTimer             effect_timer;
     bool               running;
 };
-
-#endif
