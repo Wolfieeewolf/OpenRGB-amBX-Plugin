@@ -1,0 +1,8 @@
+{
+    "Metadata": {
+        "Name": "amBX Support",
+        "Description": "Redirects amBX game effects to OpenRGB devices",
+        "Version": "1.0.0",
+        "Author": "OpenRGB Community"
+    }
+}
